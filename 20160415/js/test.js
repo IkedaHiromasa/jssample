@@ -1,3 +1,10 @@
 function test() {
-  alert("TOPƒy[ƒW‚É–ß‚è‚Ü‚·\n‚±‚ê‚ÍŒx‚Å‚·");
+  var anser = document.getElementById('result');
+  var txt = "" ;
+  for (var i=1 ; i<=5 ; i++){
+    for (var t=1 ; t<=5 ; t++){
+      txt = txt + "™";
+    }
+  }
+  anser.innerText = txt;
 }
